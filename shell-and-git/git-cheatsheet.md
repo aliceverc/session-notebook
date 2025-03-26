@@ -1,3 +1,36 @@
+## Your First Steps with Git!
+
+Git is like a time machine for your code! It helps you keep track of all the changes you make. Here are some key commands to get you going:
+
+**Starting Your Git Journey:**
+
+- `git init`: Use this command to turn your current folder into a Git project.
+- `git clone`: If someone else has already started a Git project online, you can use this to bring a copy of it to your computer.
+
+**Saving Your Amazing Work:**
+
+- `git add`: This is like staging your changes – telling Git "Hey, remember these updates!"
+- `git commit -m "Describe your changes here!"`: This saves a snapshot of your staged changes. Make sure to write a clear message so you know what you did!
+- **The `.gitignore` File:** This handy file lets you tell Git to ignore certain files that you don't need to track, like temporary files or personal settings.
+
+**Sharing and Collaborating (Remote Repositories):**
+
+- `git push`: Ready to share your work? This command sends your saved snapshots to an online repository.
+- `git pull`: Need to get the latest updates from the online repository? This command brings those changes to your computer.
+
+**Exploring Your Project's History:**
+
+- `git log`: Want to see all the snapshots that have been taken? This command shows you the history of your project.
+- `git status`: Curious about what's changed in your project right now? This command gives you a quick overview.
+
+**Things to Keep in Mind:**
+
+- Git doesn't track empty folders, so don't worry if they don't show up!
+- It's best to keep your Git projects separate – one inside another can cause confusion.
+
+**Understanding the `.gitignore` File:**
+You'll usually create this file in the main folder of your project. Inside, you simply list the names of files or patterns of files that you want Git to ignore. Once a file is in this list, Git will leave it alone, no matter where it is in your project.
+
 Git CLI & remote
 Learning Objectives
 
