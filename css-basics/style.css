@@ -1,0 +1,46 @@
+* {
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+    background-color: aliceblue;
+}
+
+nav {
+    background-color: antiquewhite;
+    height: 20px;
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 15px 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+.section {
+    border: 2px dotted black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.chocolate {
+    background-color: rgb(82, 12, 12);
+    color: #fff;
+}
+
+#candy {
+    border: 3px seagreen solid
+}
